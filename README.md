@@ -31,7 +31,7 @@ deadCoder is a full-stack MERN application that allows you as a player to create
 
 ![GitHub License](https://img.shields.io/github/license/shernandez927/deadcoder_?style=for-the-badge) 
 
-Copyright (c) [2022] [Shelby Hernandez]
+Copyright (c) 2022 Shelby Hernandez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
