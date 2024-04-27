@@ -1,7 +1,10 @@
 {
   "name": "deadcoder",
   "version": "0.1.0",
-  "description": "",
+  "description": "MERN Stack Gaming Application",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "server/server.js",
   "scripts": {
     "start": "node server --ignore client",
