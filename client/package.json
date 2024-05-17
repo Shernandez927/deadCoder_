@@ -11,7 +11,6 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "eslint": "^7.32.0",
     "graphql": "^16.8.1",
     "jwt-decode": "^2.2.0",
     "prettier": "^3.2.5",
@@ -29,7 +28,10 @@
     "build:css": "tailwindcss -c ./tailwind.config.js -i src/input.css -o public/output.css"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+    "react-app",
+    "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
